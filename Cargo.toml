@@ -1,7 +1,10 @@
 [package]
 name = "ai_testing_grounds"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["Lilith645 <lilith@inet-sys.com>"]
 edition = "2018"
 
 [dependencies]
+maat_graphics = { path = "./Maat-Graphics/" }
+maat_input_handler = { path = "./Maat-InputHandler/" }
+hlua = "*"
